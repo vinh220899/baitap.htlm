@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+@media only screen and (min-width: 600px) {
+	/* For tablets */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+[class*="col-"] {
+    float: left;
+    padding: 7px;
+   
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.logo img{
+	width: 20%;
+	height: auto;
+	float: left;
+}
+.logo{
+	text-align: center;
+
+
+}
+.logo .tenlogo{
+	float: left;
+	margin-top: 25px;
+	margin-right: 70px;
+	font-size: 45px;
+
+}
+.menu{
+	text-align: center;
+	margin-top: 40px;
+	font-size: 20px;
+}
+.sologan{
+	text-align: center;
+	font-style: italic;
+}
+.sologan2	{
+	margin-left: 65%;
+}
+.slg{
+	border: 1px solid black;
+	background: rgba(32, 127, 183, 0.55);
+	color: white;
+	height: 70px;
+}
+.danhsach{
+
+}
+.anh{
+	width: 100px;
+	height: auto;
+}
+@media only screen and (min-width: 768px) {
+	/* For desktop */
+    .col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+footer{
+	text-align: center;
+	border: 1px solid pink;
+	color: pink;
+
+}
